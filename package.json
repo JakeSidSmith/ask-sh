@@ -1,0 +1,37 @@
+{
+  "name": "install-shell",
+  "version": "0.0.0",
+  "description": "CLI util for optionally running shell commands",
+  "main": "src/index.js",
+  "bin": "src/cli.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "eslint ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakesidsmith/install-shell.git"
+  },
+  "keywords": [
+    "install",
+    "js",
+    "javascript",
+    "shell",
+    "commands",
+    "bash"
+  ],
+  "author": "Jake 'Sid' Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakesidsmith/install-shell/issues"
+  },
+  "homepage": "https://github.com/jakesidsmith/install-shell#readme",
+  "devDependencies": {
+    "eslint-config-jakesidsmith": "github:jakesidsmith/eslint-config-jakesidsmith"
+  },
+  "dependencies": {
+    "jargs": "0.3.3"
+  }
+}
