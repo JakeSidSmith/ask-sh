@@ -21,12 +21,12 @@
         description: 'Display help and usage info'
       },
       Program(
-        'install-shell',
+        'ask-sh',
         {
           description: 'CLI util for optionally running shell commands',
-          usage: 'install-shell command',
+          usage: 'ask-sh command',
           examples: [
-            'install-shell install.sh'
+            'ask-sh install.sh'
           ],
           callback: function (tree) {
             runCommands(tree.args.command);

@@ -1,13 +1,13 @@
-# install-shell
+# ask-sh
 
 **CLI util for optionally running shell commands**
 
 ## Usage
 
-Run `install-shell` with a command file as the only argument
+Run `ask-sh` with a command file as the only argument
 
 ```shell
-install-shell command.sh
+ask-sh command.sh
 ```
 
 Follow the instructions

@@ -1,5 +1,5 @@
 {
-  "name": "install-shell",
+  "name": "ask-sh",
   "version": "0.0.0",
   "description": "CLI util for optionally running shell commands",
   "main": "src/index.js",
@@ -12,22 +12,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jakesidsmith/install-shell.git"
+    "url": "git+https://github.com/jakesidsmith/ask-sh.git"
   },
   "keywords": [
-    "install",
-    "js",
-    "javascript",
+    "ask",
+    "sh",
     "shell",
+    "question",
+    "install",
     "commands",
+    "command",
+    "script",
+    "javascript",
+    "js",
     "bash"
   ],
   "author": "Jake 'Sid' Smith",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jakesidsmith/install-shell/issues"
+    "url": "https://github.com/jakesidsmith/ask-sh/issues"
   },
-  "homepage": "https://github.com/jakesidsmith/install-shell#readme",
+  "homepage": "https://github.com/jakesidsmith/ask-sh#readme",
   "devDependencies": {
     "eslint-config-jakesidsmith": "github:jakesidsmith/eslint-config-jakesidsmith"
   },
