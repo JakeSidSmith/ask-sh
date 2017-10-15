@@ -29,7 +29,7 @@
       handleLines(lines);
     } else {
       process.stdin.resume();
-      console.error('Do you want to run :' + line + ' ? [y, n]');
+      console.error('Do you want to run: ' + line + '? [y, n]');
 
       process.stdin.once('data', function (data) {
         process.stdin.pause();
